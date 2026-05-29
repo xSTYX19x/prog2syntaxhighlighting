@@ -22,6 +22,6 @@ public final class MiniJavaTokens {
                     + "|synchronized|this|throw|throws|transient|try|void|volatile|while"
                     + "|true|false|null|var|record|sealed|yield)\\b"),
             MiniJavaColours.KEYWORD_COLOUR),
-        Token.of(Pattern.compile("(@[a-zA-Z][a-zA-Z-]*)"), MiniJavaColours.ANNOTATION_COLOUR));
+        Token.of(Pattern.compile("@[a-zA-Z][a-zA-Z-]*"), MiniJavaColours.ANNOTATION_COLOUR));
   }
 }
