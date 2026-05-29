@@ -1,7 +1,8 @@
 # IDE generated files #
 ######################
 .vscode/
-.idea/
+.idea
+../prog2syntaxhighlighting copy/.idea/
 *.iml
 .project
 .metadata
@@ -43,9 +44,6 @@ _sidebar.md
 
 # JAVA, Scala #
 ###############
-*.class
-*.log
-*.jar
 hs_err_pid*
 replay_pid*
 *.hprof
@@ -56,6 +54,10 @@ replay_pid*
 .gradle/
 # don't ignore any gradle wrapper files
 !gradle/
+
+*.class
+*.log
+*.jar
 
 
 # Packages #
