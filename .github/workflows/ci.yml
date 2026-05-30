@@ -25,7 +25,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Compile project
-        run:  ./gradlew classes
+        run:  ./gradlew classes testClasses
   
   test:
     runs-on: ubuntu-latest
