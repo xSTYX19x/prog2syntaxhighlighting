@@ -9,7 +9,7 @@ public final class MiniJavaTokens {
     return List.of(
         // Example: string literals (students should define further tokens below)
         Token.of(Pattern.compile("\"([^\"\\\\]|\\\\.)*\""), MiniJavaColours.STRING_LITERAL_COLOUR),
-        Token.of(Pattern.compile("'([^\"\\\\]|\\\\.)'"), MiniJavaColours.CHAR_LITERAL_COLOUR),
+        Token.of(Pattern.compile("'([^\'\\\\]|\\\\.)'"), MiniJavaColours.CHAR_LITERAL_COLOUR),
         Token.of(Pattern.compile("//.*"), MiniJavaColours.LINE_COMMENT_COLOUR),
         Token.of(Pattern.compile("/\\*\\*[\\s\\S]*?\\*/"), MiniJavaColours.JAVADOC_COMMENT_COLOUR),
         Token.of(Pattern.compile("/\\*[\\s\\S]*?\\*/"), MiniJavaColours.BLOCK_COMMENT_COLOUR),
